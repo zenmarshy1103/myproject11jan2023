@@ -1,0 +1,32 @@
+
+/* root of application ie HTML */
+/* CSS variable */
+:root {
+    --primary-color: #ef235a;
+    --secondary-color: #040303;
+    --business-name-font:  'Tilt Prism', cursive; 
+}
+
+/* calling css variable */
+h1 {
+    background-color: var(--primary-color);
+}
+
+p {
+    background-color: var(--primary-color);
+    font-family: var(--business-name-font);
+
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    border: 3px solid;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: var(--business-name-font);
+    font-size: 2rem;
+    text-align: center;
+    line-height: 40px;
+
+}
